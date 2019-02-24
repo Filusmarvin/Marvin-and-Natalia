@@ -1,0 +1,1 @@
+var data = '[{"name" : "bear" , "price" : "20", "about" : "10in Rose Bear", "img" : "./images/rosebear.png"} ,          {"name" : "Silky shorts" , "price" : "$16", "about": "Sexy ass Silky couchie cutters", "img" : "./images/silkyshort.jpg"}]'    

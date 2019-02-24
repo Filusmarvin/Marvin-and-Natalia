@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title> Marvin's Room </title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="ani.css">
+        <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <nav id="nav-bar">
+        <a class="nav-a home" href="#"> Home</a>
+        <a class="nav-a baby" href="#"> My Baby</a>
+        <a class="nav-a gifts" href="#"> Gifts </a>
+      </nav>
+      
+      <section>
+        <header>
+          <div id="title-div">
+            <h1 id="title-name">Marvin and Natalia's</h1>
+            <h2 id="title-space"> Space </h2>
+          </div>
+        </header>
+        <div id="sign-div">
+          <form id="signUpForm" class="signForm" onSubmit="even.preventDefault()";>
+            <p> Sign Up </p>
+            <input id="signUpEmail" type="text" name="email"placeholder="Email Address"/>
+            <p> Password</p>
+            <input id="signUpPassword" type="password" nam="password" placeholder="Password"/>
+            <button id="signUpButton"> Sign Up</button>
+          </form>
+          <form id="signInForm" class="signForm" onSubmit="even.preventDefault()";>
+            <p> Sign In </p>
+            <input id="signInEmail" type="text" name="email"placeholder="Email Address"/>
+            <p> Password</p>
+            <input id="signInPassword" type="password" nam="password" placeholder="Password"/>
+            <button id="signInButton"> Sign In </button>
+          </form>
+          </div>
+        </div>
+      </section>
+      <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+      <script src="firebase.js"></script>
+      <script src="data.json"></script>
+      <script src="login.js"></script>
+    </body>
+</html>
